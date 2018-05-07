@@ -18,3 +18,4 @@ it('should call correct name after add player', () => {
 
   expect(onPlayerAdd).toBeCalledWith('Mariusz');
 });
+
