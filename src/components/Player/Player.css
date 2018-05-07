@@ -1,0 +1,41 @@
+li {
+    list-style-type: none;
+    margin: 20px;
+}
+.Player__name {
+    padding: 25px;
+    margin-right: 10px;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: #FEFEFE;
+    display: inline-block;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 3px 3px blue;
+}
+.Player__score {
+    padding: 25px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #000;
+    background-color: #FEFEFE;
+    margin-right: 50px;
+    border-radius: 10px;
+    box-shadow: 3px 3px blue;
+}
+.Player__button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #FEFEFE; 
+    color: #000;
+    transition: .3s;
+    font-size: 18px;
+    border-radius: 2px;
+}
+.Player__button:hover {
+    background-color: #585180;
+    color: #FEFEFE;
+    cursor: pointer;
+}
